@@ -1,0 +1,17 @@
+{
+  "coc.nvim": { "branch": "release", "commit": "0efebca3dfbbaa113dd3f1f8416feab7013d99f3" },
+  "lazy.nvim": { "branch": "main", "commit": "809d67fcf0f6dd5dabdd1c2b88d451cef4695880" },
+  "lualine.nvim": { "branch": "master", "commit": "0050b308552e45f7128f399886c86afefc3eb988" },
+  "neo-tree.nvim": { "branch": "v2.x", "commit": "8238865e1d9c61f1a260c290653f2c419503e0a9" },
+  "neoconf.nvim": { "branch": "main", "commit": "3e2184b8dea4147c08fcbe04072039f518fa296c" },
+  "neodev.nvim": { "branch": "main", "commit": "7ea6d32432bfacf25256d1f7bc8d5f0d52107906" },
+  "nui.nvim": { "branch": "main", "commit": "b99e6cb13dc51768abc1c4c8585045a0c0459ef1" },
+  "nvim-web-devicons": { "branch": "master", "commit": "3548363849878ef895ce54edda02421279b419d8" },
+  "plenary.nvim": { "branch": "master", "commit": "1c7e3e6b0f4dd5a174fcea9fda8a4d7de593b826" },
+  "vim-airline": { "branch": "master", "commit": "c7460aa8836bcb05cf32331cc751739ba9392ae7" },
+  "vim-code-dark": { "branch": "master", "commit": "95cc6019d502ea32840fc743ea703b2194dfe815" },
+  "vim-devicons": { "branch": "master", "commit": "71f239af28b7214eebb60d4ea5bd040291fb7e33" },
+  "vim-gitgutter": { "branch": "master", "commit": "00df1089b6267f47c7c0f13536789feb9db1e65b" },
+  "vim-lldb": { "branch": "master", "commit": "fef40a926fed25defeef703788ef984f2bf9c15d" },
+  "which-key.nvim": { "branch": "main", "commit": "684e96c5e8477f1ee9b3f2e9a12d802fd12c5531" }
+}

@@ -1,0 +1,9 @@
+{
+    "explorer.icon.enableNerdfont" : true,
+    "clangd.enabled" : true,
+    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd",
+    "clangd.arguments": ["--query-driver=/usr/bin/clang++"],
+    "clangd.fallbackFlags": ["-I/usr/local/include/SDL2/"],
+    "inlayHint.enable": false,
+    "semanticTokens.enable": true
+}
