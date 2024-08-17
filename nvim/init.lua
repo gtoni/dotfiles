@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+vim.g.editorconfig = false
 
 local opt = vim.opt
 
@@ -30,7 +31,7 @@ opt.guifont = "FiraCode Nerd Font:h11"
 opt.inccommand = "nosplit" -- preview incremental substitute
 opt.joinspaces = false -- No double spaces with join after a dot
 opt.laststatus = 3
-opt.list = true -- Show some invisible characters (tabs...
+opt.list = false -- Show some invisible characters (tabs...
 opt.mouse = "a" -- enable mouse mode
 opt.number = true -- Print line number
 opt.pumblend = 10 -- Popup blend
@@ -66,5 +67,10 @@ end
 
 -- fix markdown indentation settings
 vim.g.markdown_recommended_style = 0
+
+vim.cmd([[
+    nnoremap <silent> { :bp<CR>
+    nnoremap <silent> } :bn<CR>
+]])
 
 require("lazy").setup("plugins")

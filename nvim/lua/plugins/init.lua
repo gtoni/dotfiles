@@ -1,9 +1,7 @@
 return {
     "nvim-lua/plenary.nvim",
-    "folke/neodev.nvim",
-    {"folke/neoconf.nvim", cmd = "Neoconf" },
     {
-        "folke/which-key.nvim",
+        "folke/which-key.nvim", enabled = true,
         config = function()
             vim.o.timeout = true
             vim.o.timeoutlen = 300
